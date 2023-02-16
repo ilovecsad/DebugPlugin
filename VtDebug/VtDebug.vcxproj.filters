@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Driver Files">
+      <UniqueIdentifier>{8E41214B-6785-4CFE-B992-037D68949A14}</UniqueIdentifier>
+      <Extensions>inf;inv;inx;mof;mc;</Extensions>
+    </Filter>
+    <Filter Include="stl库">
+      <UniqueIdentifier>{030063b4-9485-4e0a-99b6-cde9b833e226}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="VT">
+      <UniqueIdentifier>{6d839cde-e9a1-4fbe-93a7-2bf1aed8a8b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="VT\vm">
+      <UniqueIdentifier>{89b874a7-a28b-41d0-98ef-18680b71295f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="VT\vmm">
+      <UniqueIdentifier>{2ad82d96-3d4d-486c-b968-6cd7ca3c574d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="VT\ept">
+      <UniqueIdentifier>{f1af75f8-b227-4793-b153-4e4a51c963df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="系统回调">
+      <UniqueIdentifier>{4f2b92aa-68d2-404d-934a-d5f09d48c4f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="VT\Log">
+      <UniqueIdentifier>{3e37e126-1d5f-4518-9800-3d0110831f37}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="VT\asm">
+      <UniqueIdentifier>{4dd24b15-f302-4693-86a5-f93e9b3334ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="VT\UtlFunctions">
+      <UniqueIdentifier>{c2c00b87-25a3-40fa-b353-5c3dad1d2ee2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IoDevice">
+      <UniqueIdentifier>{a6b29e49-7541-4d3e-9070-2886b0127548}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="symbol">
+      <UniqueIdentifier>{796a9c54-89ff-4b37-9651-996843854b9d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Function">
+      <UniqueIdentifier>{0407013c-ac62-4ad9-9ddd-a7136aef9504}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel_stl.cpp">
+      <Filter>stl库</Filter>
+    </ClCompile>
+    <ClCompile Include="stl.cpp">
+      <Filter>stl库</Filter>
+    </ClCompile>
+    <ClCompile Include="utl.cpp">
+      <Filter>VT\UtlFunctions</Filter>
+    </ClCompile>
+    <ClCompile Include="ept.cpp">
+      <Filter>VT\ept</Filter>
+    </ClCompile>
+    <ClCompile Include="vmm.cpp">
+      <Filter>VT\vmm</Filter>
+    </ClCompile>
+    <ClCompile Include="vm.cpp">
+      <Filter>VT\vm</Filter>
+    </ClCompile>
+    <ClCompile Include="vtdump.cpp">
+      <Filter>VT\Log</Filter>
+    </ClCompile>
+    <ClCompile Include="event_notify.cpp">
+      <Filter>系统回调</Filter>
+    </ClCompile>
+    <ClCompile Include="ioDevice.cpp">
+      <Filter>IoDevice</Filter>
+    </ClCompile>
+    <ClCompile Include="symbol.cpp">
+      <Filter>symbol</Filter>
+    </ClCompile>
+    <ClCompile Include="Function.cpp">
+      <Filter>Function</Filter>
+    </ClCompile>
+    <ClCompile Include="handleTable.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stl.h">
+      <Filter>stl库</Filter>
+    </ClInclude>
+    <ClInclude Include="common.h">
+      <Filter>stl库</Filter>
+    </ClInclude>
+    <ClInclude Include="utl.h">
+      <Filter>VT\UtlFunctions</Filter>
+    </ClInclude>
+    <ClInclude Include="util_page_constants.h">
+      <Filter>VT\UtlFunctions</Filter>
+    </ClInclude>
+    <ClInclude Include="vm.h">
+      <Filter>VT\vm</Filter>
+    </ClInclude>
+    <ClInclude Include="ept.h">
+      <Filter>VT\ept</Filter>
+    </ClInclude>
+    <ClInclude Include="vmm.h">
+      <Filter>VT\vmm</Filter>
+    </ClInclude>
+    <ClInclude Include="asm.h">
+      <Filter>VT\asm</Filter>
+    </ClInclude>
+    <ClInclude Include="vtdump.h">
+      <Filter>VT\Log</Filter>
+    </ClInclude>
+    <ClInclude Include="ia32_type.h">
+      <Filter>VT</Filter>
+    </ClInclude>
+    <ClInclude Include="struct.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="event_notify.h">
+      <Filter>系统回调</Filter>
+    </ClInclude>
+    <ClInclude Include="ioDevice.h">
+      <Filter>IoDevice</Filter>
+    </ClInclude>
+    <ClInclude Include="symbol.h">
+      <Filter>symbol</Filter>
+    </ClInclude>
+    <ClInclude Include="Function.h">
+      <Filter>Function</Filter>
+    </ClInclude>
+    <ClInclude Include="handleTable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="x64.asm">
+      <Filter>VT\asm</Filter>
+    </CustomBuild>
+  </ItemGroup>
+</Project>
