@@ -1,6 +1,8 @@
 # DebugPlugin
-The Plugin  references CE  VEH Debug
-                                Welcome everyone develop this plugin
+The Plugin  references CE  VEH Debug ,Welcome everyone develop this plugin
+                                
+Thanks for this guys:
+
 
 x86![x861](https://user-images.githubusercontent.com/78861284/219367603-7de6556a-fbdb-4d74-8115-bc3f3b2f19bb.png)
                                         x64
