@@ -1,0 +1,2 @@
+#define X64DBGTEST_API __declspec(dllexport)
+#define X64DBGTEST_API __declspec(dllimport)
